@@ -1,0 +1,99 @@
+﻿html, body 
+{
+    font-family: 'Heebo', sans-serif;
+    direction: rtl;
+}
+
+#myMap{
+            height: 500px;
+            color: black;
+            
+        }
+
+.testCss{
+ 
+    text-align: center;
+    height: 200px;
+    cursor: pointer;
+     opacity:0.8; 
+ transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    height: 50%;
+    width: 50%;
+}
+
+.testCss:hover{
+  opacity:1;
+   transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+.testCssG4{
+      background-color: #df9a6c;    
+}
+
+.testCssG3{
+      background-color: #f5ad6c;
+}
+
+.testCssG2{
+      background-color: #fec074;
+}
+.testCssG1{
+      background-color: #ffd185;
+}
+
+
+.testCss h3{
+     opacity:1;
+
+}
+
+#health {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/girl.jpg');
+  text-align: center;
+  color: white;
+}
+
+#about {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/HIT.jpg');
+  text-align: center;
+  color: white;
+}
+
+
+
+.btnDarker{
+        color: #fff !important;
+    background-color: #1d8c63 !important;
+    border-color: #1d8c63 !important;
+}
+
+.btnDarker:hover{
+        color: #fff !important;
+    background-color: #63e0b0 !important;
+    border-color: #63e0b0 !important;
+}
+
+.modal-dialog{
+    color: grey;
+    text-align:right;
+}
